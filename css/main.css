@@ -1,0 +1,157 @@
+/*****Base Grid and Styles*****/
+
+body {
+    background-color: azure;
+    height: 2500px;
+    width: 1400;
+}
+
+.half-width {
+    width: 600px;
+}
+
+.third-width {
+    width: 400px;
+}
+
+main{
+    background-color: bisque;
+    color: #3b3b3b;
+    font-family: 'Montserrat', sans-serif;
+    height: 1350px;
+    border-bottom: slategray 3px solid;
+    border-left: slategray 3px solid;
+    border-right: slategray 3px solid;
+    border-top: slategray 3px solid;
+}
+
+
+
+
+
+/*****Header*****/
+
+header {
+    background-size: cover;
+    background-image: url('../img/hero.png');
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    height: 455px;
+    padding: 25px;
+}
+
+header h1 {
+    color: #3b3b3b;
+    font-size: 30px;
+    text-align: center;
+}
+
+header p {
+    color: #3b3b3b;
+    font-size: 16px;
+}
+
+header ul {
+    color: #3b3b3b;
+    font-size: 16px;
+}
+
+nav {
+    background-color: beige;
+    font-size: 14px;
+    height: 50px;
+}
+
+nav ul {
+   text-align: center;
+    width: 1200px;
+}
+
+nav li {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration:none;
+    text-transform: uppercase;
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: #3b3b3b;
+    text-decoration: none;
+}
+
+/*****Work*****/
+
+
+#work {
+    float: right;
+    height: 700px;
+    width: 400px;
+    
+}
+
+#work h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#work p {
+    text-align: left;
+}
+
+#work ul {
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#work ul li a {
+    text-decoration: none;
+}
+
+/*****Rules*****/
+
+#rules {
+    height: 700px;
+    width: 400px;
+    float: right;
+}
+
+#rules h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#rules p {
+    text-align: left;
+}
+
+#rules ul {
+    text-align: left;
+}
+
+/*****Supplies*****/
+
+#supplies {
+    height: 700px;
+    width: 400px;
+    float: right;
+}
+
+#supplies h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#supplies p {
+    text-align: left;
+}
+
+#supplies ol {
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
