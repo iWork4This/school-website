@@ -1,5 +1,6 @@
 /*****Base Grid and Styles*****/
 
+
 body {
     background-color: azure;
     height: 2500px;
@@ -26,10 +27,8 @@ main{
 }
 
 
-
-
-
 /*****Header*****/
+
 
 header {
     background-size: cover;
@@ -81,14 +80,15 @@ nav ul li a {
     text-decoration: none;
 }
 
+
 /*****Work*****/
 
 
 #work {
     float: right;
     height: 700px;
-    width: 400px;
-    
+    width: 380px;
+    margin: auto;
 }
 
 #work h2 {
@@ -111,12 +111,15 @@ nav ul li a {
     text-decoration: none;
 }
 
+
 /*****Rules*****/
 
+
 #rules {
-    height: 700px;
-    width: 400px;
     float: right;
+    height: 700px;
+    width: 380px;
+    margin: auto;
 }
 
 #rules h2 {
@@ -132,12 +135,15 @@ nav ul li a {
     text-align: left;
 }
 
+
 /*****Supplies*****/
 
+
 #supplies {
-    height: 700px;
-    width: 400px;
     float: right;
+    height: 700px;
+    width: 380px;
+    margin: auto;
 }
 
 #supplies h2 {
